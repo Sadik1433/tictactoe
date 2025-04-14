@@ -93,4 +93,25 @@ body {
 .hide1 {
     display: none;
   }
-  
+
+@media screen and (max-width: 600px) {
+  .game-btn {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+  }
+  .game-board {
+    height: 200px;
+    width: 300px;
+  }
+  .btn1 {
+    height: 30px;
+    width: 60px;
+    font-size: 12px;
+  }
+  .reset {
+    height: 30px;
+    width: 60px;
+    font-size: 12px;
+  }
+}
